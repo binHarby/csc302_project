@@ -1,8 +1,11 @@
 # DBMS Payroll Project
+> Administered by Dr. Adel Khelifi
+
+> Areesha Ahmed 1049798
 
 > Abdulla Alameri 1070401
-> Areesha Ahmed 1049798
-> Administered by Dr. Adel Khelifi
+
+
 
 
 ## Introduction
