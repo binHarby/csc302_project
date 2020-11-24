@@ -351,11 +351,15 @@ We used Barker Notation to represent the tables and their columns as entities an
 ![](https://i.imgur.com/WPaNqbl.png)
 
 ### 3. **Entity Relationship Modeling**
-  An Entity Relationship Diagram (ERD) allows you to graphical represent the system information and has the following four goals:•Capture all required information.•Ensure that information appears only once.•Model no information that is derivable from other information that is already modeled.•Locate information in a predictable, logical place.As you have already Identified the entities, their attributes and the relationships between the entities you can now begin to construct the finalised ERD that will show how the system is linked together.
+  An Entity Relationship Diagram (ERD) permits you to graphically show the system of a database and has the accompanying four goals:
+  * acquire all necessary data.
+  * Ensure integrity of data.
+  * Model no redundant data.•Locate data in an anticipated, consistent sequence.
 
 **Relationships Resolving Many to Many Relationships**
 
   In relational databases you can have the following three types of relationship that represent the information requirements and the rules of the business.:•Many-to-one (M:1) or one-to-many (1:M)•Many-to-many (M:M)•One-to-one (1:1)If you have any many to many (M:M) relationships in your ERD then you will need to resolve those before going any further.   Remember you resolve a M:M relationship by: •Delete the M:M relationship.•Create a new entity (intersection). •Create two identifying relationships with the many side on the new intersection entity.
+  
  •Identify and create additional attributes in the intersection entity if   required.  Think about how you would store how many of each item and how many items were actually shipped to the customer.•Evaluate whether the two existing identifying relationships constitute a UID for the intersection entity or whether an artificial UID has to be created for the new entity.•Add relationship labels to the new identifying relationships
 
  We resolved Many-to-many relationships through making intersection entities, specfically for our Payroll System, payroll_record and payroll_entitiy_escrow intersection entities.
