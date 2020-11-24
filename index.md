@@ -1,4 +1,8 @@
-# DBMS Project
+# DBMS Payroll Project
+
+> Abdulla Alameri 1070401
+> Areesha Ahmed 1049798
+> Administered by Dr. Adel Khelifi
 
 
 ## Introduction
@@ -14,16 +18,16 @@ Our topic about payroll management systems creates awareness about how the emplo
 ---
 ### 1. **Business Requirements**
 
-  * The Payroll System is suggested to Government to be implmented as a social welfare program to benfit low wage labor/employees.
-  * The Payroll System is automates payroll process and reduces fees for low wage labor/employees.
-  * The Payroll System is applicable to local charities or  private company Companies that have employees with around 1000AED monthly wage.
-  * The Payroll System notfies labor/employees/users their avaliable payroll in escrow account accessable through their  unique individual credit cards and their monitered through their unique mobile applicaiton account.
-  * The Payroll System takes into consideration thrid party payment processing rates and fees.
-  * The Private Companies, Charity Program Companies and Payroll Record System has at least some Workforce that allows them to run their businesses.
+  1. The Payroll System is suggested to Government to be implmented as a social welfare program to benfit low wage labor/employees.
+  2. The Payroll System is automates payroll process and reduces fees for low wage labor/employees.
+  3. The Payroll System is applicable to local charities or  private company Companies that have employees with around 1000AED monthly wage.
+  4. The Payroll System notfies labor/employees/users their avaliable payroll in escrow account accessable through their  unique individual credit cards and their monitered through their unique mobile applicaiton account.
+  5. The Payroll System takes into consideration thrid party payment processing rates and fees.
+  6. The Private Companies, Charity Program Companies and Payroll Record System has at least some Workforce that allows them to run their businesses.
 
 ### 2. **Database Design**
 
-**Identifying Entities (S2L3 Objective 1)**
+**Identifying Entities**
 
   1. Government Programs
   2. Program Applicant
@@ -48,7 +52,7 @@ Our topic about payroll management systems creates awareness about how the emplo
 
 ### **2.1 Entities and Attributes**
 
-**(i) Identifying Attributes (S2L3 Objective 2)**
+**Identifying Attributes**
 
 I. Government Programs
 
@@ -157,7 +161,7 @@ VIII. App Account
   7. Wage received
   8. Credit card back number
 
-**(ii) Identifying Mandatory/Optional Attributes (S2L3 Objective 3)**
+**Identifying Mandatory/Optional Attributes**
 
 The Potential Entities and Attributes including Optionality:
 
@@ -308,49 +312,88 @@ X. payroll entity escrow
   2. \*number of transactions
   3. \*processing rate
 
-**(iii) Using Barker Notation (S2L3 Objective 4)**
+**Using Barker Notation**
 
+We used Barker Notation to represent the tables and their columns as entities and their attributes. We followed the logical sequence of the buisness requiremets and the overall intended funciton of the suggested social program as guide while building the database system.
 
 ![](https://i.imgur.com/nAYlyEU.png)
 
-1. **Unique Identifiers**
+**Unique Identifiers**
 
-**(i) Identifying Unique Identifiers (UIDs) (S2L4 Objective 1)**
+**Identifying Unique Identifiers & Artificial Unique Identifiers (UIDs)**
+  * if a unique identefer is a information bearing whether a primary key, foregin key or a canidate key it becomes a natural key.
 
+  * if a unique identefier is made-up of more then one attribute, that combined makes the entity unique identfier then its becomes a composite unique indentfier.
 
-1. **Relationships**
+  * If no information bearing identifier has been assigned then assign an artificial one.  Normally we use id or number as the name for the artificial identifier.
 
-
-### **(i) Recognize Examples of Relationships (S2L5 Objective 1)**
-
-
-
-### **(iii) Identify the Cardinality of Relationships (S2L5 Objective 3)**
+  * if a natural unique identifier exists alogn with an artifical one, one can make a composite key of both as primery entity identifiers.
 
 
+### **Relationships**
 
-### **(iv) Using a Relationship Matrix (S2L5 Objective 5)**
 
-1. **Entity Relationship Modeling (S2L6 Objective 5)**
+  Relationships demonstrate to a connection between two entities. Identifying clear business rules, helps in Identifying possible relationship between entities.
 
-  ![](https://i.imgur.com/nAYlyEU.png)
+### **Recognize Examples of Relationships & Identify the Cardinality of Relationships**
 
-2. **Relationships Resolving Many to Many Relationships (S3L1 Objective 2)**
+  A relationship is a connection between two entities and must either be mandatory or optional.
 
-  We resolved Many-to-many relationships through making intersection entities, specfically for our Payroll System, payroll_record and payroll_entitiy_escrow intersection entities.
+#### **Business Requirements**
 
-3. **Identify and Illustrate Non-Transferable Relationships**
-4. **Identify and Draw Supertype and Subtype Entities**
-5. **Identify Hierarchical, Recursive and Arc Relationships**
-6. **Using Normalization to Validate Data (S3L3 Objective 3)**
-7. **Using Normalization to Validate Data**
-8. **Using Normalization to Validate Data**
-9. **Database Implementation and Testing**
-10. **Apply the Rules of Relationship Mapping to Transform Relationship**
-11. **Creating a Logical Data Model**
-12. **Engineer the Relational Model from the Logical Data Model**
+  1. The Payroll System is suggested to Government to be implmented as a social welfare program to benfit low wage labor/employees.
+  2. The Payroll System is automates payroll process and reduces fees for low wage labor/employees.
+  3. The Payroll System is applicable to local charities or  private company Companies that have employees with around 1000AED monthly wage.
+  4. The Payroll System notfies labor/employees/users their avaliable payroll in escrow account accessable through their  unique individual credit cards and their monitered through their unique mobile applicaiton account.
+  5. The Payroll System takes into consideration thrid party payment processing rates and fees.
+  6. The Private Companies, Charity Program Companies and Payroll Record System has at least some Workforce that allows them to run their businesses.
 
----
+
+![](https://i.imgur.com/3jXc5Hh.png)
+![](https://i.imgur.com/RGM2asw.png)
+![](https://i.imgur.com/PS1VuaC.png)
+![](https://i.imgur.com/UAEazGV.png)
+![](https://i.imgur.com/MS4xulH.png)
+
+
+### **Using a Relationship Matrix**
+
+  * A relationship matrix demonstrates how every entity on the far left column behaves toward the entity which it acrosses at the top of the matrix row.
+  * If there is a relationship between the interseted entities on the table, then a relationship defination is written.
+  * An entiity relationship with itself is written at the in one of the diagnoal boxes, which is also called a recursive relationship
+
+
+![](https://i.imgur.com/WPaNqbl.png)
+
+### 3. **Entity Relationship Modeling**
+  An Entity Relationship Diagram (ERD) allows you to graphical represent the system information and has the following four goals:•Capture all required information.•Ensure that information appears only once.•Model no information that is derivable from other information that is already modeled.•Locate information in a predictable, logical place.As you have already Identified the entities, their attributes and the relationships between the entities you can now begin to construct the finalised ERD that will show how the system is linked together.
+
+**Relationships Resolving Many to Many Relationships**
+
+  In relational databases you can have the following three types of relationship that represent the information requirements and the rules of the business.:•Many-to-one (M:1) or one-to-many (1:M)•Many-to-many (M:M)•One-to-one (1:1)If you have any many to many (M:M) relationships in your ERD then you will need to resolve those before going any further.   Remember you resolve a M:M relationship by: •Delete the M:M relationship.•Create a new entity (intersection). •Create two identifying relationships with the many side on the new intersection entity.
+ •Identify and create additional attributes in the intersection entity if   required.  Think about how you would store how many of each item and how many items were actually shipped to the customer.•Evaluate whether the two existing identifying relationships constitute a UID for the intersection entity or whether an artificial UID has to be created for the new entity.•Add relationship labels to the new identifying relationships
+
+ We resolved Many-to-many relationships through making intersection entities, specfically for our Payroll System, payroll_record and payroll_entitiy_escrow intersection entities.
+
+**Identify and Illustrate Non-Transferable Relationships**
+This step uses the additional scenario and meeting transcript that was provided in the previous exercise.A non-transferable relationship cannot be moved between instances of the entities it connects and has to be mandatory.
+
+in our payroll system we demonstrate such a relationship with the relationship between contact_info and dont_worry_program_applicant entities.
+  ![](https://i.imgur.com/3jXc5Hh.png)
+**Identify and Draw Supertype and Subtype Entities**
+This step uses the additional scenario and meeting transcript that was provided in previous exercises.Subtype/supertypes allow you to represent entities that have common attributes as a group.•Each subtype is a specialization of a supertype and therefore must be enclosed within an entity.•The common attributes and relationships for all subtypes must be listed only in the supertype, but they are inherited in every subtype.•A subtype can and would generally have attributes and relationships of its own.•There can never be just one subtype; another subtype should be created to contain the rest.
+
+**Identify Hierarchical, Recursive and Arc Relationships**
+An arc is an exclusive relationship group, which is defined such that only one of the relationships can exist for any instance of an entity.
+
+**Using Normalization to Validate Data**
+Normalization is a relational database concept, but its principles apply to data modeling.
+
+* First Normal Form (1NF) -The data is atomic (All attributes must be single-valued). -The entries in a column are of the same type.-There can be no duplicated rows in the table meaning that the table has a group of columns that uniquely identifies the row.
+* Second Normal Form (2NF) -The data meets the requirements for 1NF.-Requires that any non-UID attribute be dependent on the entire UID-If the data is not directly dependent on the entire UID, then it needs to be moved to another table.
+* Third Normal Form (3NF) -It met all database requirements for both 1NF and 2NF.-No non-UID attribute can be dependent on another non-UID attribute.-Each column must depend directly on the UID. All attributes that are not dependent on the UID must be removed. For example, attributes that can be derived from data contained in other fields and tables must be eliminated. (All transitive dependencies are eliminated).
+
+**Database Implementation and Testing**
 ## Tables
 
 ```sql
@@ -606,6 +649,13 @@ insert into EMPLOYEE  (program_id,applicant_id,company_id,position_title,rolling
 
 
 ```
+**Creating a Logical Data Model**
+![](https://i.imgur.com/nAYlyEU.png)
+**Engineer the Relational Model from the Logical Data Model**
+  1. **add relational pics here**
+
+---
+
 
 ### **Results**
 
