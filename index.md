@@ -59,75 +59,56 @@ Our topic about payroll management systems creates awareness about how the emplo
 **Identifying Attributes**
 
 I. Government Programs
-
-  1. Program ID
-  2. Program name
+   1. Program ID
+   2. Program name
 
 II. Program Applicant
-
-  1. Applicant ID
-  2. Applicant name
-  3. Application submission date
-  4. Application status
+    1. Applicant ID
+    2. Applicant name
+    3. Application submission date
+    4. Application status
 
 III. Private Company
-
-  1. Company ID
-
-  2. Date joined
-
-  3. Number of employees
-
-  4. Number of labors on payroll
+     1. Company ID
+     2. Date joined
+     3. Number of employees
+     4. Number of labors on payroll
 
 IV. Charity
+    1. Charity ID
+    2. Date joined
+    3. Number of employees
+    4. Number of volunteers
+    5. Number of labors on payroll
+    6. Subject
 
-  1. Charity ID
-
-  2. Date joined
-
-  3. Number of employees
-
-  4. Number of volunteers
-
-  5. Number of labors on payroll
-  6. Subject
-
-V.  Payroll
-
-  1. Payroll ID
-  2. Total Payment due
-  3. Wage
-  4. Details
-  5. Bonus Applied
-  6. Bonus Amount
+V. Payroll
+   1. Payroll ID
+   2. Total Payment due
+   3. Wage
+   4. Details
+   5. Bonus Applied
+   6. Bonus Amount
 
 VI. Contact Information
-
-  1. City main branch
-
-  2. Emirate main branch
-
-  3. Contact number
-
-  4. Street number main branch
-
-  5. Building number
-
-  6. region
+    1. City main branch
+    2. Emirate main branch
+    3. Contact number
+    4. Street number main branch
+    5. Building number
+    6. region
 
 VII. Employees
-
-  - Employee ID
-  - Position Title
-  - Start Date
-  - End Date
-  - First Name
-  - Last Name
-  - Phone number
-  - Insurance covered
-  - Benefits
-  - Bonus
+     - Employee ID
+     - Position Title
+     - Start Date
+     - End Date
+     - First Name
+     - Last Name
+     - Phone number
+     - Insurance covered
+     - Benefits
+     - Bonus
 
   1. Contractor
 
