@@ -76,7 +76,7 @@ III. Private Company
 
   4. Number of labors on payroll
 
-IV.Charity
+IV. Charity
 
   1. Charity ID
 
@@ -89,7 +89,7 @@ IV.Charity
   5. Number of labors on payroll
   6. Subject
 
-V.Payroll
+V.  Payroll
 
   1. Payroll ID
   2. Total Payment due
@@ -98,7 +98,7 @@ V.Payroll
   5. Bonus Applied
   6. Bonus Amount
 
-VI.Contact Information
+VI. Contact Information
 
   1. City main branch
 
@@ -112,7 +112,7 @@ VI.Contact Information
 
   6. region
 
-VII.Employees
+VII. Employees
 
   - Employee ID
   - Position Title
@@ -125,30 +125,30 @@ VII.Employees
   - Benefits
   - Bonus
 
-  b. Contractor
+  1. Contractor
 
-    - Contract Start Date
-    - Contract End Date
-    - Number of terms of payments
+   - Contract Start Date
+   - Contract End Date
+   - Number of terms of payments
 
-  c. Volunteers
+  2. Volunteers
 
-    - Volunteer Program name
-    - Impact description
+   - Volunteer Program name
+   - Impact description
 
-  d. Finance
+  3. Finance
 
-    - Department number
-    - Financial performance
-    - Financial project numbers
-    - internal cases covered
+   - Department number
+   - Financial performance
+   - Financial project numbers
+   - internal cases covered
 
   e. Management
 
-    - Manager performance
-    - Number of people managed
-    - Manager projects
-    - Department number
+   - Manager performance
+   - Number of people managed
+   - Manager projects
+   - Department number
 
 VIII. App Account
 
@@ -197,7 +197,7 @@ III. Private Company
 
   4. o Number of labors on payroll
 
-IV.Charity
+IV. Charity
 
 ![](https://i.imgur.com/fdTrAzs.png)
 
@@ -212,7 +212,7 @@ IV.Charity
   5. o Number of labors on payroll
   6. o Subject
 
-V.Payroll
+V. Payroll
 
 
 
@@ -223,7 +223,7 @@ V.Payroll
   5. o Bonus Applied
   6. o Bonus Amount
 
-VI.Contact Information
+VI. Contact Information
 
 ![](https://i.imgur.com/JQc61MY.png)
 
@@ -239,7 +239,7 @@ VI.Contact Information
 
   6. o region
 
-VII.Employees
+VII. Employees
 
 ![](https://i.imgur.com/mwUXjE0.png)
 
@@ -256,28 +256,28 @@ VII.Employees
 
 
 
-  b. Contractor
+  1. Contractor
 
-    1. \*Contract Start Date
-    2. \*Contract End Date
-    3. \*Number of terms of payments
+   1. \*Contract Start Date
+   2. \*Contract End Date
+   3. \*Number of terms of payments
 
-  c. Volunteers
+  2. Volunteers
 
-    1. \*Volunteer Program name
-    2. *o* Impact description
+   1. \*Volunteer Program name
+   2. *o* Impact description
 
-  d. Finance
+  3. Finance
 
-    1. o Department number
-    2. \*Financial performance
-    3. o Financial project numbers
-    4. o internal cases covered
+   1. o Department number
+   2. \*Financial performance
+   3. o Financial project numbers
+   4. o internal cases covered
 
-  e. Management
+  3. Management
 
-    1. \*Manager performance
-    2. o Number of people managed
+   1. \*Manager performance
+   2. o Number of people managed
     3. o Manager projects
     4. o Department number
 
