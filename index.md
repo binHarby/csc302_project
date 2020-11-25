@@ -482,6 +482,29 @@ create table CHARITY (
   constraint pk_charity primary key (applicant_id,program_id,charity_id )
 
 );
+/* We can declare a type like so, we have skipped the body declaration thought and instead we defined subtypes that belong to employee like finance, management , contractor and volunteer with table creating statements to show that the employee foreign key will be the primary key for those subtypes and that they will inherit the employee attributes, all for the sake of simplicity.
+ */
+
+CREATE OR REPLACE TYPE Emploee AS OBJECT 
+( 
+   program_id              number(12) NOT NULL,
+  applicant_id               number(10) NOT NULL,
+  company_id      number(10) NOT NULL,
+  emp_id                number(8) GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
+    position_title  varchar2(50) NOT NULL,
+    rolling_payment_period  varchar2(50) NOT NULL,
+    startt_date              date NOT NULL,
+    end_date                  date NOT NULL,
+    first_name                varchar2(20) NOT NULL,
+    last_name                varchar2(20) NOT NULL,
+    phone_num                number NOT NULL,
+    benfits                   number,
+    bonus                     number,
+    insurance_covered        char(1) check (insurance_covered in ( 'Y', 'N' )) NOT NULL,
+      RETURN NUMBER 
+) 
+   NOT FINAL; 
+   
 create table EMPLOYEE (
     program_id              number(12) NOT NULL,
   applicant_id               number(10) NOT NULL,
@@ -677,6 +700,24 @@ insert into EMPLOYEE  (program_id,applicant_id,company_id,position_title,rolling
 
 );
 
+
+```
+## sample MongoDB implementation of the credit_card entity through the shell prompt
+
+```mongodb
+show dbs
+use payrollsystem
+db
+payrollsystem
+db.createUser({
+user:"Abdulla",
+pwd:"secret",
+roles:["readWrite",dbAdmin"]});
+
+db.createCollection("creditCard");
+
+db.creditCard.insert({creditCardNumber:"4555 3333 2846 2222", backNumber:"111",pwd:"secret",processingFee:0.015});
+show collections
 
 ```
 **Creating a Logical Data Model**
