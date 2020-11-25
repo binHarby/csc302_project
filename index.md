@@ -193,104 +193,82 @@ IV. Charity
   6. o Subject
 
 V. Payroll
-
-
-
-  1. \*Payroll ID
-  2. \*Total Payment due
-  3. \*Wage
-  4. o Details
-  5. o Bonus Applied
-  6. o Bonus Amount
+![](https://i.imgur.com/O2qRgSo.png)
+   1. \*Payroll ID
+   2. \*Total Payment due
+   3. \*Wage
+   4. o Details
+   5. o Bonus Applied
+   6. o Bonus Amount
 
 VI. Contact Information
-
 ![](https://i.imgur.com/JQc61MY.png)
-
-  1. \*City main branch
-
-  2. \*Emirate main branch
-
-  3. \*Contact number
-
-  4. \*Street number main branch
-
-  5. \*Building number
-
-  6. o region
+    1. \*City main branch
+    2. \*Emirate main branch
+    3. \*Contact number
+    4. \*Street number main branch
+    5. \*Building number
+    6. o region
 
 VII. Employees
-
 ![](https://i.imgur.com/mwUXjE0.png)
-
-  1. \*Employee ID
-  2. \*Position Title
-  3. \*Start Date
-  4. \*End Date
-  5. \*First Name
-  6. \*Last Name
-  7. \*Phone number
-  8. \*Insurance covered
-  9. o Benefits
-  10. o Bonus
+     1. \*Employee ID
+     2. \*Position Title
+     3. \*Start Date
+     4. \*End Date
+     5. \*First Name
+     6. \*Last Name
+     7. \*Phone number
+     8. \*Insurance covered
+     9. o Benefits
+    10. o Bonus
 
 
 
   1. Contractor
-
-   1. \*Contract Start Date
-   2. \*Contract End Date
-   3. \*Number of terms of payments
+     1. \*Contract Start Date
+     2. \*Contract End Date
+     3. \*Number of terms of payments
 
   2. Volunteers
-
-   1. \*Volunteer Program name
-   2. *o* Impact description
+     1. \*Volunteer Program name
+     2. *o* Impact description
 
   3. Finance
-
-   1. o Department number
-   2. \*Financial performance
-   3. o Financial project numbers
-   4. o internal cases covered
+     1. o Department number
+     2. \*Financial performance
+     3. o Financial project numbers
+     4. o internal cases covered
 
   3. Management
-
-   1. \*Manager performance
-   2. o Number of people managed
-    3. o Manager projects
-    4. o Department number
+     1. \*Manager performance
+     2. o Number of people managed
+     3. o Manager projects
+     4. o Department number
 
 VIII. App Account
-
 ![](https://i.imgur.com/MzqpalH.png)
-
-  1. \*Account number
-  2. account balance
-  3. wage recieved
-  4. total withdrawl date
-  5. last withdrawl
+      1. \*Account number
+      2. account balance
+      3. wage recieved
+      4. total withdrawl date
+      5. last withdrawl
 
 IX. credit card
-
 ![](https://i.imgur.com/fVSXW9y.png)
-
-  1. \*Credit card number
-  2. \*Credit card expiration date
-  3. \*Encrypted wire key for money transfer
-  4. \*Transaction number
-  5. \*Processing fees
-  6. \*Wage received
-  7. \*Credit card back number
+    1. \*Credit card number
+    2. \*Credit card expiration date
+    3. \*Encrypted wire key for money transfer
+    4. \*Transaction number
+    5. \*Processing fees
+    6. \*Wage received
+    7. \*Credit card back number
 
 X. payroll entity escrow
-
 ![](https://i.imgur.com/34Ds9W4.png)
-
-
-  1. \*entity account
-  2. \*number of transactions
-  3. \*processing rate
+   1. \*entity account
+   2. \*number of transactions
+   3. \*processing rate
 
 **Using Barker Notation**
 
