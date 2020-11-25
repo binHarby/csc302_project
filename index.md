@@ -109,27 +109,23 @@ VII. Employees
      - Insurance covered
      - Benefits
      - Bonus
-
-  1. Contractor
-     - Contract Start Date
-     - Contract End Date
-     - Number of terms of payments
-
-  2. Volunteers
-     - Volunteer Program name
-     - Impact description
-
-  3. Finance
-     - Department number
-     - Financial performance
-     - Financial project numbers
-     - internal cases covered
-
-  e. Management
-     - Manager performance
-     - Number of people managed
-     - Manager projects
-     - Department number
+     1. Contractor
+        - Contract Start Date
+        - Contract End Date
+        - Number of terms of payments
+     2. Volunteers
+        - Volunteer Program name
+        - Impact description
+     3. Finance
+        - Department number
+        - Financial performance
+        - Financial project numbers
+        - internal cases covered
+     4. Management
+        * Manager performance
+        * Number of people managed
+        * Manager projects
+        * Department number
 
 VIII. App Account
       1. Account number
@@ -140,19 +136,33 @@ VIII. App Account
       6. Processing fees
       7. Wage received
       8. Credit card back number
+IX. credit card
+    1. Credit card number
+    2. Credit card expiration date
+    3. Encrypted wire key for money transfer
+    4. Transaction number
+    5. Processing fees
+    6. Wage received
+    7. Credit card back number
+    
+X. payroll entity escrow 
+   1. entity account
+   
+   2. number of transactions
+   
+   3. processing rate
+
 
 **Identifying Mandatory/Optional Attributes**
 
 The Potential Entities and Attributes including Optionality:
 
-
-
 I. Government Programs
 
 ![](https://i.imgur.com/aPdnpYo.png)
 
-   1. \*Program ID
-   2. \*Program name
+   1. *Program ID
+   2. *Program name
 
 
 
@@ -160,20 +170,20 @@ II. Program Applicant
 
 ![](https://i.imgur.com/eftUrBE.png)
 
-   1. \*Applicant ID
-   2. \*Applicant name
-   3. \*Application submission date
-   4. \*Application status
+   1. *Applicant ID
+   2. *Applicant name
+   3. *Application submission date
+   4. *Application status
 
 III. Private Company
 
 ![](https://i.imgur.com/Tge8Hyg.png)
 
-  1. \*Company ID
+  1. *Company ID
 
-  2. \*Date joined
+  2. *Date joined
 
-  3. \*Number of employees
+  3. *Number of employees
 
   4. o Number of labors on payroll
 
@@ -181,13 +191,13 @@ IV. Charity
 
 ![](https://i.imgur.com/fdTrAzs.png)
 
-  1. \*Charity ID
+  1. *Charity ID
 
-  2. \*Date joined
+  2. *Date joined
 
-  3. \*Number of employees
+  3. *Number of employees
 
-  4. \*Number of volunteers
+  4. *Number of volunteers
 
   5. o Number of labors on payroll
   6. o Subject
@@ -196,9 +206,9 @@ V. Payroll
 
 ![](https://i.imgur.com/O2qRgSo.png)
 
-   1. \*Payroll ID
-   2. \*Total Payment due
-   3. \*Wage
+   1. *Payroll ID
+   2. *Total Payment due
+   3. *Wage
    4. o Details
    5. o Bonus Applied
    6. o Bonus Amount
