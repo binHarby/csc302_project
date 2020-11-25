@@ -246,49 +246,68 @@ VII. Employees
 
 
   1. Contractor
-     1. \*Contract Start Date
-     2. \*Contract End Date
-     3. \*Number of terms of payments
+  
+     1. *Contract Start Date
+     2. *Contract End Date
+     3. *Number of terms of payments
 
   2. Volunteers
-     1. \*Volunteer Program name
-     2. *o* Impact description
+     1. *Volunteer Program name
+     2. o Impact description
 
   3. Finance
      1. o Department number
-     2. \*Financial performance
+     2. *Financial performance
      3. o Financial project numbers
      4. o internal cases covered
 
   3. Management
-     1. \*Manager performance
+     1. *Manager performance
      2. o Number of people managed
      3. o Manager projects
      4. o Department number
 
 VIII. App Account
+
 ![](https://i.imgur.com/MzqpalH.png)
-      1. \*Account number
+
+      1. *Account number
+      
       2. account balance
+      
       3. wage recieved
+      
       4. total withdrawl date
+      
       5. last withdrawl
 
 IX. credit card
+
 ![](https://i.imgur.com/fVSXW9y.png)
-    1. \*Credit card number
-    2. \*Credit card expiration date
-    3. \*Encrypted wire key for money transfer
-    4. \*Transaction number
-    5. \*Processing fees
-    6. \*Wage received
-    7. \*Credit card back number
+
+    1. *Credit card number
+    
+    2. *Credit card expiration date
+    
+    3. *Encrypted wire key for money transfer
+    
+    4. *Transaction number
+    
+    5. *Processing fees
+    
+    6. *Wage received
+    
+    7. *Credit card back number
 
 X. payroll entity escrow
+
 ![](https://i.imgur.com/34Ds9W4.png)
-   1. \*entity account
-   2. \*number of transactions
-   3. \*processing rate
+
+   1. *entity account
+   
+   2. *number of transactions
+   
+   3. *processing rate
 
 **Using Barker Notation**
 
