@@ -146,11 +146,11 @@ Our topic about payroll management systems creates awareness about how the emplo
     7. Credit card back number
     
 10. payroll entity escrow 
-   1. entity account
+    1. entity account
    
-   2. number of transactions
+    2. number of transactions
    
-   3. processing rate
+    3. processing rate
 
 
 **Identifying Mandatory/Optional Attributes**
