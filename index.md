@@ -40,10 +40,10 @@ Our topic about payroll management systems creates awareness about how the emplo
   5. Payroll Record
   6. Contact Information
   7. Employees
-    * finance
-    * managment
-    * volunteer
-    * contractor
+     * finance
+     * managment
+     * volunteer
+     * contractor
   8. Application Account
   9. payroll escrow account
   10. credit card
