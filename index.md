@@ -111,40 +111,35 @@ VII. Employees
      - Bonus
 
   1. Contractor
-
-   - Contract Start Date
-   - Contract End Date
-   - Number of terms of payments
+     - Contract Start Date
+     - Contract End Date
+     - Number of terms of payments
 
   2. Volunteers
-
-   - Volunteer Program name
-   - Impact description
+     - Volunteer Program name
+     - Impact description
 
   3. Finance
-
-   - Department number
-   - Financial performance
-   - Financial project numbers
-   - internal cases covered
+     - Department number
+     - Financial performance
+     - Financial project numbers
+     - internal cases covered
 
   e. Management
-
-   - Manager performance
-   - Number of people managed
-   - Manager projects
-   - Department number
+     - Manager performance
+     - Number of people managed
+     - Manager projects
+     - Department number
 
 VIII. App Account
-
-  1. Account number
-  2. Credit card number
-  3. Credit card expiration date
-  4. Encrypted wire key for money transfer
-  5. Transaction number
-  6. Processing fees
-  7. Wage received
-  8. Credit card back number
+      1. Account number
+      2. Credit card number
+      3. Credit card expiration date
+      4. Encrypted wire key for money transfer
+      5. Transaction number
+      6. Processing fees
+      7. Wage received
+      8. Credit card back number
 
 **Identifying Mandatory/Optional Attributes**
 
@@ -156,8 +151,8 @@ I. Government Programs
 
 ![](https://i.imgur.com/aPdnpYo.png)
 
-  1. \*Program ID
-  2. \*Program name
+   1. \*Program ID
+   2. \*Program name
 
 
 
@@ -165,10 +160,10 @@ II. Program Applicant
 
 ![](https://i.imgur.com/eftUrBE.png)
 
-  1. \*Applicant ID
-  2. \*Applicant name
-  3. \*Application submission date
-  4. \*Application status
+   1. \*Applicant ID
+   2. \*Applicant name
+   3. \*Application submission date
+   4. \*Application status
 
 III. Private Company
 
