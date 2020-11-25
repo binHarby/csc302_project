@@ -355,32 +355,61 @@ We used Barker Notation to represent the tables and their columns as entities an
   * acquire all necessary data.
   * Ensure integrity of data.
   * Model no redundant data.•Locate data in an anticipated, consistent sequence.
+   
 
 **Relationships Resolving Many to Many Relationships**
 
-  In relational databases you can have the following three types of relationship that represent the information requirements and the rules of the business.:•Many-to-one (M:1) or one-to-many (1:M)•Many-to-many (M:M)•One-to-one (1:1)If you have any many to many (M:M) relationships in your ERD then you will need to resolve those before going any further.   Remember you resolve a M:M relationship by: •Delete the M:M relationship.•Create a new entity (intersection). •Create two identifying relationships with the many side on the new intersection entity.
-  
- •Identify and create additional attributes in the intersection entity if   required.  Think about how you would store how many of each item and how many items were actually shipped to the customer.•Evaluate whether the two existing identifying relationships constitute a UID for the intersection entity or whether an artificial UID has to be created for the new entity.•Add relationship labels to the new identifying relationships
+ 
 
- We resolved Many-to-many relationships through making intersection entities, specfically for our Payroll System, payroll_record and payroll_entitiy_escrow intersection entities.
+In relational databases you can have three sorts of relationship that speak to the data necessities and the principles of the business.:
+* Many-to-one (M:1) or one-to-many (1:M)
+* Many-to-many (M:M)
+* One-to-one (1:1)If you have any many to many (M:M) connections in your ERD then you should resolve those prior to going any further. 
+Recall you settle a M:M relationship by: 
+* Delete the M:M relationship. 
+* Create new intersection entity. 
+* Create two relationships with the new intersection entity. 
+* Identify and make extra attributes in the intersection entity whenever required. Consider how you would store the number of everything, and the number of things were really transported to the customer. 
+* Evaluate whether the two existing relationships establish a UID for the intersection entity or whether a fake UID must be made for the new entity. •Add relationship names to the new distinguishing relationships 
 
-**Identify and Illustrate Non-Transferable Relationships**
-This step uses the additional scenario and meeting transcript that was provided in the previous exercise.A non-transferable relationship cannot be moved between instances of the entities it connects and has to be mandatory.
+We settled Many-to-many connections through creation of entity intersection, specifically for our Payroll System: payroll_record and payroll_escrow entities. 
 
-in our payroll system we demonstrate such a relationship with the relationship between contact_info and dont_worry_program_applicant entities.
-  ![](https://i.imgur.com/3jXc5Hh.png)
-**Identify and Draw Supertype and Subtype Entities**
-This step uses the additional scenario and meeting transcript that was provided in previous exercises.Subtype/supertypes allow you to represent entities that have common attributes as a group.•Each subtype is a specialization of a supertype and therefore must be enclosed within an entity.•The common attributes and relationships for all subtypes must be listed only in the supertype, but they are inherited in every subtype.•A subtype can and would generally have attributes and relationships of its own.•There can never be just one subtype; another subtype should be created to contain the rest.
+ 
 
-**Identify Hierarchical, Recursive and Arc Relationships**
-An arc is an exclusive relationship group, which is defined such that only one of the relationships can exist for any instance of an entity.
+**Identify and Show Non-Transferable Relationships** 
 
-**Using Normalization to Validate Data**
-Normalization is a relational database concept, but its principles apply to data modeling.
+This progression utilizes the extra situation and meeting record that was given in the past exercise. A non-transferable relationship can't be moved between cases of the entities it interfaces and must be required. 
 
-* First Normal Form (1NF) -The data is atomic (All attributes must be single-valued). -The entries in a column are of the same type.-There can be no duplicated rows in the table meaning that the table has a group of columns that uniquely identifies the row.
-* Second Normal Form (2NF) -The data meets the requirements for 1NF.-Requires that any non-UID attribute be dependent on the entire UID-If the data is not directly dependent on the entire UID, then it needs to be moved to another table.
-* Third Normal Form (3NF) -It met all database requirements for both 1NF and 2NF.-No non-UID attribute can be dependent on another non-UID attribute.-Each column must depend directly on the UID. All attributes that are not dependent on the UID must be removed. For example, attributes that can be derived from data contained in other fields and tables must be eliminated. (All transitive dependencies are eliminated).
+in our payroll system we exhibit such a relationship with the connection among contact_info and dont_worry_program_applicant entites. 
+
+![](https://i.imgur.com/3jXc5Hh.png) 
+
+
+**Identify and Draw Supertype and Subtype Entities** 
+
+This progression utilizes the extra situation and meeting record that was given in past exercises. Subtype/supertypes permit you to represent entities that are common in two or more groups. 
+* Each subtype is a specialization of a supertype and consequently should be encased inside an entity. 
+* The common relationship & attributes of all subtypes should be recorded in supertype, yet they are acquired in each subtype. 
+* A subtype can and would by and large have characteristics and connections of its own. 
+* There can never be only one subtype; another subtype should be made to have the rest of attributes. 
+
+**Identify Hierarchal, Recursive and Arc Relationships** 
+
+A arc is an elite relationship, which is characterized with the end goal that just one of the connections can exist for any occasion of an entity. 
+
+**Using Normalization to Approve Data** 
+
+Normalization has a concept of relational database, yet its standards apply to modeling of data.
+
+* First Normal Form (1NF) - The information is atomic (All attributes must be single). – The data type of all attributes is of same data type. - There can be no copied rows in the table implying that the table has group of columns that extraordinarily recognizes the row. 
+
+ 
+
+* Second Normal Form (2NF) - The information meets the prerequisites for 1NF. - Necessitates that any non-UID attribute be dependent on the whole UID -In the event that the information isn't legitimately or directly dependent to the whole UID, at that point it should be moved to another table. 
+
+ 
+
+* Third Normal Form (3NF) - It meets all the requirements of a database model for both 1NF and 2NF. - No non-UID attribute can be reliant on another non-UID attribute. - Every column be dependent on the UID. All attributes that are non-dependent on the UID must be taken out. For instance, attributes that can be gotten from information contained in different fields and tables must be removed. (All transitive conditions are removed).
 
 **Database Implementation and Testing**
 ## Tables
@@ -640,16 +669,14 @@ insert into EMPLOYEE  (program_id,applicant_id,company_id,position_title,rolling
 ```
 **Creating a Logical Data Model**
 ![](https://i.imgur.com/nAYlyEU.png)
-**Engineer the Relational Model from the Logical Data Model**
-  1. **add relational pics here**
 
 ---
 
 
 ### **Results**
-
-
+The Payroll System resulted in a comprehensive solution for a social problem that was further stressed and tested during the COVID-19. We used 10 general entities to describe our solution and how it can be implemented. The contact_info and credit_card entity were used to store contact_info and credit_card information to store data related to both those titles and have it be non-transferable. Government_program and dont_worry_program_applicant show how government can issue multiple programs with their One-to-Many relationships, with each having their own Artifical and for the applicant entity composite artificial key. We stressed the arc relationship to show the duality of such a solution and how it can be applied to a number of parties that may not seem very obvious at first, but the both generally have the same lack of service.
 
 ### **Conclusions**
 
+ Low wage employees get the worst end of the employee and employer relationships in pandemic and critical dire times, same situation often happens to volunteers where the community and government seek to reward them for their deeds even though they might've do it in spite the anticipation for a reward our solution suggest a possible government program to be adopted to help give ease of wage delivery and labor cash flow with out the risk of bank account terminations and sanctions, fully automated in cohesive manner with a clear and straight forward database solution to solve the problem taking in regard the minuet and technical  details of financial transactions in the digital world we live in today.
 
