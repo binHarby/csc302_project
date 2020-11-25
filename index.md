@@ -482,7 +482,10 @@ create table CHARITY (
   constraint pk_charity primary key (applicant_id,program_id,charity_id )
 
 );
-/* We can declare a type like so, we have skipped the body declaration thought and instead we defined subtypes that belong to employee like finance, management , contractor and volunteer with table creating statements to show that the employee foreign key will be the primary key for those subtypes and that they will inherit the employee attributes, all for the sake of simplicity.
+/* We can declare a type like so, we have skipped the body declaration thought 
+and instead we defined subtypes that belong to employee like finance, management , contractor and volunteer with table creating statements 
+to show that the employee foreign key will be the primary key for those subtypes
+and that they will inherit the employee attributes, all for the sake of simplicity.
  */
 
 CREATE OR REPLACE TYPE Emploee AS OBJECT 
