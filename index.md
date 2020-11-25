@@ -58,23 +58,23 @@ Our topic about payroll management systems creates awareness about how the emplo
 
 **Identifying Attributes**
 
-I. Government Programs
+1. Government Programs
    1. Program ID
    2. Program name
 
-II. Program Applicant
+2. Program Applicant
     1. Applicant ID
     2. Applicant name
     3. Application submission date
     4. Application status
 
-III. Private Company
+3. Private Company
      1. Company ID
      2. Date joined
      3. Number of employees
      4. Number of labors on payroll
 
-IV. Charity
+4. Charity
     1. Charity ID
     2. Date joined
     3. Number of employees
@@ -82,7 +82,7 @@ IV. Charity
     5. Number of labors on payroll
     6. Subject
 
-V. Payroll
+5. Payroll
    1. Payroll ID
    2. Total Payment due
    3. Wage
@@ -90,7 +90,7 @@ V. Payroll
    5. Bonus Applied
    6. Bonus Amount
 
-VI. Contact Information
+6. Contact Information
     1. City main branch
     2. Emirate main branch
     3. Contact number
@@ -98,7 +98,7 @@ VI. Contact Information
     5. Building number
     6. region
 
-VII. Employees
+7. Employees
      - Employee ID
      - Position Title
      - Start Date
@@ -127,7 +127,7 @@ VII. Employees
         * Manager projects
         * Department number
 
-VIII. App Account
+8. App Account
       1. Account number
       2. Credit card number
       3. Credit card expiration date
@@ -136,7 +136,7 @@ VIII. App Account
       6. Processing fees
       7. Wage received
       8. Credit card back number
-IX. credit card
+9. credit card
     1. Credit card number
     2. Credit card expiration date
     3. Encrypted wire key for money transfer
@@ -145,7 +145,7 @@ IX. credit card
     6. Wage received
     7. Credit card back number
     
-X. payroll entity escrow 
+10. payroll entity escrow 
    1. entity account
    
    2. number of transactions
