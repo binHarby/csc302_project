@@ -193,7 +193,9 @@ IV. Charity
   6. o Subject
 
 V. Payroll
+
 ![](https://i.imgur.com/O2qRgSo.png)
+
    1. \*Payroll ID
    2. \*Total Payment due
    3. \*Wage
@@ -202,25 +204,43 @@ V. Payroll
    6. o Bonus Amount
 
 VI. Contact Information
+
 ![](https://i.imgur.com/JQc61MY.png)
-    1. \*City main branch
-    2. \*Emirate main branch
-    3. \*Contact number
-    4. \*Street number main branch
-    5. \*Building number
+
+    1. *City main branch
+    
+    2. *Emirate main branch
+    
+    3. *Contact number
+    
+    4. *Street number main branch
+    
+    5. *Building number
+    
     6. o region
 
 VII. Employees
+
 ![](https://i.imgur.com/mwUXjE0.png)
-     1. \*Employee ID
-     2. \*Position Title
-     3. \*Start Date
-     4. \*End Date
-     5. \*First Name
-     6. \*Last Name
-     7. \*Phone number
-     8. \*Insurance covered
+
+     1. *Employee ID
+     
+     2. *Position Title
+     
+     3. *Start Date
+     
+     4. *End Date
+     
+     5. *First Name
+     
+     6. *Last Name
+     
+     7. *Phone number
+     
+     8. *Insurance covered
+     
      9. o Benefits
+     
     10. o Bonus
 
 
